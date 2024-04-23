@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANKITA - DEVELOPER PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(1, 4, 11);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            background-color: rgb(82, 1, 98);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(149, 238, 210);
+            font-size: 1.5rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+        }
+
+        .rightSection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(45, 104, 187);
+        }
+
+        .text-grey {
+            color: grey;
+        }
+
+        #element {
+            color: rgb(45, 104, 187);
+
+        }
+
+        .secondSection {
+            max-width: 90vh;
+            margin: auto;
+            height: 80vh;
+
+        }
+
+        main hr {
+            border: 0px;
+            background: #903ab6;
+            height: 1.2px;
+            margin: 40px 84px;
+
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .box {
+            background-color: rgb(222, 220, 220);
+            width: 43vw;
+            height: 1px;
+            margin: 50px 0px;
+            display: flex;
+            
+        }
+
+        .vertical1 {
+            height: 100px;
+            width: 1px;
+            background-color: white;
+            margin-top: 0px;
+            margin-left: 110px;
+
+        }
+
+        .vertical2 {
+            height: 100px;
+            width: 1px;
+            background-color: white;
+            margin-top: 0px;
+            margin-left: 150px;
+
+
+        }
+
+        .vertical3 {
+            height: 100px;
+            width: 1px;
+            background-color: white;
+            margin-top: 0px;
+            margin-left: 150px;
+
+
+        }
+
+        .vertical4 {
+            height: 100px;
+            width: 1px;
+            background-color: white;
+            margin-top: 0px;
+            margin-left: 150px;
+
+        }
+
+        .img-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 100px;
+            font-size: 20px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: grey;
+            width: 100px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: rgb(82, 1, 98);
+            height: 100px;
+        }
+
+        .footer {
+            display: flex;
+            padding:  23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width:225px;
+        }
+
+    .text-center{
+        text-align: center;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ankita's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Servies</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi ! My Name Is <span class="purple">Ankita</span>
+                <div>and I am a passionate</div>
+                <!--  <div>Web Developer</div>-->
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="portfolio.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+
+        <section class="secondSection">
+            <span class="text-grey">What I Have Done so Far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical1">
+
+                    <img class="img-top" src="women.png" alt="">
+
+                    <div class="vertical-title">Html Developer (2018-2023)</div>
+
+                    <div class="vertical-desc">
+                        Web development refers to the creating, building, and maintaining of websites. It includes
+                        aspects such as web design, web publishing, web programming, and database management. It is the
+                        creation of an application that works over the internet i.e. websites.
+                    </div>
+
+
+
+
+                </div>
+
+
+                <div class="vertical2">
+                    <img class="img-top" src="facebook.png" alt="">
+
+                    <div class="vertical-title">Node.js Developer (2018-2023)</div>
+
+                    <div class="vertical-desc">
+                        Node.js is a cross-platform, open-source server environment that can run on Windows, Linux,
+                        Unix, macOS, and more. Node.js is a back-end JavaScript runtime environment, runs on the V8
+                        JavaScript Engine, and executes JavaScript code outside a web browser.
+                    </div>
+
+                </div>
+
+                <div class="vertical3">
+                    <img class="img-top" src="WhatsApp.png" alt="">
+
+                    <div class="vertical-title">Java Developer (2018-2023)</div>
+                    <div class="vertical-desc">
+                        Java is a high-level, class-based, object-oriented programming language that is designed to have
+                        as few implementation dependencies as possible.
+                    </div>
+                </div>
+                <div class="vertical4">
+                    <img class="img-top" src="YouTube.png" alt="">
+
+                    <div class="vertical-title">C Developer (2018-2023)</div>
+                    <span></span>
+                    <div class="vertical-desc">
+                        C is a general-purpose computer programming language. It was created in the 1970s by Dennis
+                        Ritchie, and remains very widely used and influential. By design, C's features cleanly reflect
+                        the capabilities of the targeted CPUs.
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Ankita's Developer</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="text-center">
+            www.AnkitaPortfolio.com | All right reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web</i> Developer.', 'Graphic Designer', 'Web Designer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+
+
+</body>
+
+</html>

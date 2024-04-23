@@ -1,0 +1,107 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&family=Varela+Round&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,400;1,500&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+    
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+.navbar{
+    display: flex;
+    height: 67px;
+    
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+.topleft{
+    height: 50vh;
+    width: 50%;
+}
+.topright{
+    height: 50vh;
+    width: 50%;
+}
+.section1{
+    max-height: 100vh;
+    
+}
+
+.section1 h1{
+    font-size: 1.5rem;
+}
+.logo{
+    font-size: 1.3rem;
+}
+.fitness{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.dumbbells{
+    width: 109px;
+   
+}
+.section2{
+    padding-left: 63px;
+    padding-right: 63px;
+}
+.section2 h1{
+    font-size: 2rem;
+}
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+.box{
+    padding: 8px 0px 0px;
+    margin: 12px 22px;
+    min-width:19vw;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+.box h2{
+    font-size: 2rem;
+    padding: 12px 0;
+}
+.section3 {
+    padding: 0 8vw;
+    text-align: center;
+    
+}
+.btn3{
+    text-align: center;
+}
+.btn2{
+    
+    background-color:rgb(60, 7, 7) ;
+    color: white;
+    font-style: bolder;
+    font-size: large;
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 30vh;
+}
+footer{
+    padding: 23px;
+    text-align: center;
+    color: rgb(17, 47, 37);
+    font-style: bold;
+}
+.img1{
+    
+    
+    background-color: black;
+    background-size:100vh;
+    color: white;
+}
